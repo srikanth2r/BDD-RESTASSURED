@@ -1,0 +1,285 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 12324.7666,
+        "lng": 3.2344343544E7
+    },
+    "accuracy": 20,
+    "name": "Srikanram",
+    "phone_number": "123434",
+    "address": "US,Cananda",
+    "types": [
+        "New show park",
+        "payal shop"
+    ],
+    "website": "http://www.google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 12:38:51 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f4dab7b4d301dee6f26975d4dba405b3",
+    "scope": "APP",
+    "reference": "a9d772f11dd875914a2bc715c55620a7a9d772f11dd875914a2bc715c55620a7",
+    "id": "a9d772f11dd875914a2bc715c55620a7"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f4dab7b4d301dee6f26975d4dba405b3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f4dab7b4d301dee6f26975d4dba405b3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 12:38:52 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 239
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "12324.7666",
+        "longitude": "32344343.544"
+    },
+    "accuracy": "20",
+    "name": "Srikanram",
+    "phone_number": "123434",
+    "address": "US,Cananda",
+    "types": "New show park,payal shop",
+    "website": "http://www.google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 12324.7666,
+        "lng": 3.2344343544E7
+    },
+    "accuracy": 20,
+    "name": "Anusri",
+    "phone_number": "232424333",
+    "address": "US,Cananda",
+    "types": [
+        "New show park",
+        "payal shop"
+    ],
+    "website": "http://www.google.com",
+    "language": "Malay"
+}
+HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 12:38:53 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c7c51c245037c50017121acf8da17876",
+    "scope": "APP",
+    "reference": "cb8347ce8425816d24eb7a9fc1a3242fcb8347ce8425816d24eb7a9fc1a3242f",
+    "id": "cb8347ce8425816d24eb7a9fc1a3242f"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c7c51c245037c50017121acf8da17876
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=c7c51c245037c50017121acf8da17876
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 12:38:54 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 237
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "12324.7666",
+        "longitude": "32344343.544"
+    },
+    "accuracy": "20",
+    "name": "Anusri",
+    "phone_number": "232424333",
+    "address": "US,Cananda",
+    "types": "New show park,payal shop",
+    "website": "http://www.google.com",
+    "language": "Malay"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 12324.7666,
+        "lng": 3.2344343544E7
+    },
+    "accuracy": 20,
+    "name": "ramagiri",
+    "phone_number": "9876",
+    "address": "US,Cananda",
+    "types": [
+        "New show park",
+        "payal shop"
+    ],
+    "website": "http://www.google.com",
+    "language": "sdfhdhf"
+}
+HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 12:38:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "58de9a64c1ad75c4a8ba43e0850859a3",
+    "scope": "APP",
+    "reference": "e22bf081be00965385af8ab35fca11c9e22bf081be00965385af8ab35fca11c9",
+    "id": "e22bf081be00965385af8ab35fca11c9"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=58de9a64c1ad75c4a8ba43e0850859a3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=58de9a64c1ad75c4a8ba43e0850859a3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 12:38:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 236
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "12324.7666",
+        "longitude": "32344343.544"
+    },
+    "accuracy": "20",
+    "name": "ramagiri",
+    "phone_number": "9876",
+    "address": "US,Cananda",
+    "types": "New show park,payal shop",
+    "website": "http://www.google.com",
+    "language": "sdfhdhf"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "58de9a64c1ad75c4a8ba43e0850859a3"
+}
+HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 12:38:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
